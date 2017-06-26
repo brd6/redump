@@ -2,7 +2,7 @@
 sudo apt-get update && sudo apt-get upgrade -y
 
 # Dev Tools
-sudo apt-get install build-essential valgrind python-dev git python-pip python-virtualenv python-numpy cmake
+sudo apt-get install build-essential valgrind python-dev git python-pip python-virtualenv python-numpy cmake curl
 # Clion / pyCharm / PhpStorm
 
 # Python Tools
@@ -19,7 +19,11 @@ chsh -s `which zsh`
 # Web Tools
 sudo apt-get install apache2 apache2-utils libapache2-mod-php php php-mcrypt php-mysql php-mbstring php-dom
 
-# Databae
+# PHP Composer
+# https://getcomposer.org/download/
+
+
+# Database
 sudo apt-get install libsqlite3-dev
 sudo apt-get install mysql-server libmysqlclient-dev
 
