@@ -1,0 +1,11 @@
+# Update / Upgrade
+sudo apt-get update && sudo apt-get upgrade -y
+
+# Dev Tools
+sudo apt-get install build-essential valgrind python-dev git python-pip python-virtualenv python-numpy
+
+# Python Tools
+pip install request scrapy
+
+# Environment
+sudo apt-get install terminator zsh emacs vim
